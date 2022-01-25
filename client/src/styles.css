@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+.member-tabset > .nav-tabs > li.active {
+  border-bottom: 2px solid #ebb758;
+  position: relative;
+}
+
+.member-tabset > .nav-tabs > li.active > a {
+  border-bottom: 0 !important;
+  color: #ffbb3d;
+}
+
+.ngx-gallery {
+  display: inline-block;
+  margin-bottom: 20px;
+}
