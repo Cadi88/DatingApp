@@ -108,7 +108,7 @@
     "Country": "Senegal",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/man/74.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/74.jpg",
         "IsMain": true
       }
     ]
@@ -127,7 +127,7 @@
     "Country": "Lebanon",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/man/45.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/45.jpg",
         "IsMain": true
       }
     ]
@@ -146,7 +146,7 @@
     "Country": "New Zealand",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/man/38.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/38.jpg",
         "IsMain": true
       }
     ]
@@ -165,7 +165,7 @@
     "Country": "Falkland Islands (Malvinas)",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/man/80.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/80.jpg",
         "IsMain": true
       }
     ]
@@ -184,7 +184,7 @@
     "Country": "Malawi",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/man/80.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/85.jpg",
         "IsMain": true
       }
     ]
