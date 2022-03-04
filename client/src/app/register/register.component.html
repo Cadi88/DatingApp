@@ -1,14 +1,14 @@
-<form [formGroup]="registerForm" (ngSubmit)="register()" autocomplete="off">
+<form [formGroup]="registerForm" (ngSubmit)="registerForm.valid && register()" autocomplete="off">
   <div class="container w-25">
     <h2 class="text-center text-primary">Sign up</h2>
     <hr />
     <div class="form-group">
-      <label class=" mt-1">I'm a: &nbsp;</label>
+      <label class="mt-1">I'm a: &nbsp;</label>
       <label class="radio-inline mr-3">
-        <input type="radio" value="male" formControlName="gender"> Male
+        <input type="radio" value="male" formControlName="gender" /> Male
       </label>
       <label class="radio-inline">
-        <input type="radio" value="female" formControlName="gender"> Female
+        <input type="radio" value="female" formControlName="gender" /> Female
       </label>
     </div>
 
@@ -50,10 +50,24 @@
       [type]="'password'"
     ></app-input-text>
 
+    <div class="row mt-1" *ngIf="validationErrors.length > 0">
+      <ul class="text-danger">
+        <li *ngFor="let err of validationErrors">
+          {{ err }}
+        </li>
+      </ul>
+    </div>
+
     <div class="form-group text-center">
-      <button class="btn btn-success mr-2" type="submit">Register</button>
       <button class="btn btn-danger mr-2" type="button" (click)="cancel()">
         Cancel
+      </button>
+      <button
+        class="btn btn-success mr-2"
+        type="submit"
+        [disabled]="!registerForm.valid"
+      >
+        Register
       </button>
     </div>
   </div>
