@@ -23,6 +23,7 @@ import { NavComponent } from './nav/nav.component';
 import { RegisterComponent } from './register/register.component';
 import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 import { InputTextComponent } from './forms/input-text/input-text.component';
+import { InputDateComponent } from './Forms/input-date/input-date.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { InputTextComponent } from './forms/input-text/input-text.component';
     MemberEditComponent,
     PhotoEditorComponent,
     InputTextComponent,
+    InputDateComponent,
   ],
   imports: [
     BrowserModule,
