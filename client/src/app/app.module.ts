@@ -24,6 +24,7 @@ import { RegisterComponent } from './register/register.component';
 import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 import { InputTextComponent } from './forms/input-text/input-text.component';
 import { InputDateComponent } from './Forms/input-date/input-date.component';
+import { MemberMessagesComponent } from './members/member-messages/member-messages.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { InputDateComponent } from './Forms/input-date/input-date.component';
     PhotoEditorComponent,
     InputTextComponent,
     InputDateComponent,
+    MemberMessagesComponent,
   ],
   imports: [
     BrowserModule,
